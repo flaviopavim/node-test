@@ -103,7 +103,8 @@ async function main() {
   const phrase = args.filter(arg => !arg.startsWith('--')).join(' ');
 
   if (depthIndex === -1 || !phrase) {
-    console.error('Uso correto: npx ts-node cli.ts analyze --depth <n> --verbose (opcional) "frase para analisar"');
+    console.error('Uso correto com Bun: bun run cli.ts analyze --depth <n> --verbose (opcional) "frase para analisar"');
+    console.error('Uso correto com NPX: npx ts-node cli.ts analyze --depth <n> --verbose (opcional) "frase para analisar"');
     process.exit(1);
   }
 
