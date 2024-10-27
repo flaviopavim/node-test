@@ -38,12 +38,6 @@ Para executar o CLI, use o comando abaixo, substituindo <n> pelo nível desejado
   bun run cli.ts analyze --depth <n> --verbose "frase para analisar"
   ```
 
-## Exemplo:
-
-  ```bash
-  bun run cli.ts analyze --depth 2 --verbose "Eu tenho preferência por Pássaros"
-  ```
-
 ## Opções
 
   ```bash
@@ -51,8 +45,12 @@ Para executar o CLI, use o comando abaixo, substituindo <n> pelo nível desejado
     --verbose (opcional): Exibe informações detalhadas sobre o tempo de execução.
   ```
 
-## Exemplo Completo
+## ExemploS
 
   ```bash
   bun run cli.ts analyze --depth 2 --verbose "Eu gosto de Felinos como Leões e Tigres"
+  ```
+
+  ```bash
+  bun run cli.ts analyze --depth 2 --verbose "Eu tenho preferência por Pássaros"
   ```
