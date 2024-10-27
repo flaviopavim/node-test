@@ -32,11 +32,11 @@ cd node-test
 
 Para executar o CLI, use o comando abaixo, substituindo <n> pelo nível desejado e "frase para analisar" pela frase que deseja verificar:
 
-bun run cli.ts analyze --depth <n> --verbose "frase para analisar"
+  bun run cli.ts analyze --depth <n> --verbose "frase para analisar"
 
 ## Exemplo:
 
-bun run cli.ts analyze --depth 2 --verbose "Eu tenho preferência por Pássaros"
+  bun run cli.ts analyze --depth 2 --verbose "Eu tenho preferência por Pássaros"
 
 ## Opções
 
@@ -45,4 +45,4 @@ bun run cli.ts analyze --depth 2 --verbose "Eu tenho preferência por Pássaros"
 
 ## Exemplo Completo
 
-bun run cli.ts analyze --depth 2 --verbose "Eu gosto de Felinos como Leões e Tigres"
+  bun run cli.ts analyze --depth 2 --verbose "Eu gosto de Felinos como Leões e Tigres"
