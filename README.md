@@ -25,8 +25,8 @@ Este projeto é uma ferramenta de linha de comando (CLI) desenvolvida em TypeScr
 
 1. Clonar o Repositório
   
-git clone <URL-do-repositorio>
-cd <nome-do-repositorio>
+git clone [<URL-do-repositorio>](https://github.com/flaviopavim/node-test.git)
+cd node-test
 
 2. Rodar o CLI com Bun
 
