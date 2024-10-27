@@ -25,24 +25,29 @@ Este projeto é uma ferramenta de linha de comando (CLI) desenvolvida em TypeScr
 
 1. Clonar o Repositório
 
-git clone <URL-do-repositorio>
-cd <nome-do-repositorio>
+  ```bash
+  git clone <URL-do-repositorio>
+  cd <nome-do-repositorio>
 
 2. Rodar o CLI com Bun
 
 Para executar o CLI, use o comando abaixo, substituindo <n> pelo nível desejado e "frase para analisar" pela frase que deseja verificar:
 
-bun run cli.ts analyze --depth <n> --verbose "frase para analisar"
+  ```bash
+  bun run cli.ts analyze --depth <n> --verbose "frase para analisar"
 
 ## Exemplo:
 
-bun run cli.ts analyze --depth 2 --verbose "Eu tenho preferência por Pássaros"
+  ```bash
+  bun run cli.ts analyze --depth 2 --verbose "Eu tenho preferência por Pássaros"
 
 ## Opções
 
+  ```bash
     --depth <n>: Define o nível de profundidade na árvore a ser analisado.
     --verbose (opcional): Exibe informações detalhadas sobre o tempo de execução.
 
 ## Exemplo Completo
 
-bun run cli.ts analyze --depth 2 --verbose "Eu gosto de Felinos como Leões e Tigres"
+  ```bash
+  bun run cli.ts analyze --depth 2 --verbose "Eu gosto de Felinos como Leões e Tigres"
