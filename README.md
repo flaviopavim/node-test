@@ -28,12 +28,15 @@ Este projeto é uma ferramenta de linha de comando (CLI) desenvolvida em TypeScr
   ```bash  
   git clone [<URL-do-repositorio>](https://github.com/flaviopavim/node-test.git)
   cd node-test
+  ```
 
 2. Rodar o CLI com Bun
 
 Para executar o CLI, use o comando abaixo, substituindo <n> pelo nível desejado e "frase para analisar" pela frase que deseja verificar:
 
+  ```bash
   bun run cli.ts analyze --depth <n> --verbose "frase para analisar"
+  ```
 
 ## Exemplo:
 
