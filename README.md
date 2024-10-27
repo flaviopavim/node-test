@@ -38,11 +38,11 @@ Para executar o CLI, use o comando abaixo, substituindo <n> pelo nível desejado
   bun run cli.ts analyze --depth <n> --verbose "frase para analisar"
   ```
 
-## Opções
+Opções
 
   ```bash
-    --depth <n>: Define o nível de profundidade na árvore a ser analisado.
-    --verbose (opcional): Exibe informações detalhadas sobre o tempo de execução.
+  --depth <n>: Define o nível de profundidade na árvore a ser analisado.
+  --verbose (opcional): Exibe informações detalhadas sobre o tempo de execução.
   ```
 
 ## Exemplos
@@ -60,7 +60,7 @@ Para executar o CLI, use o comando abaixo, substituindo <n> pelo nível desejado
   ```bash
   npx ts-node cli.ts analyze --depth 2 --verbose "gato cachorro rosa tulipa aguia"
   ```
-  
+
   ```bash
   npx ts-node cli.ts analyze --depth 2 --verbose "Eu tenho preferência por Pássaros"
   ```
