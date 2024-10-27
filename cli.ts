@@ -125,6 +125,3 @@ async function main() {
 }
 
 main().catch(error => console.error('Erro:', error));
-
-//npx ts-node cli.ts analyze --depth 2 --verbose "gato cachorro rosa tulipa aguia"
-//npx ts-node cli.ts analyze --depth 2 --verbose "Eu tenho preferência por Pássaros"

@@ -54,3 +54,13 @@ Para executar o CLI, use o comando abaixo, substituindo <n> pelo nível desejado
   ```bash
   bun run cli.ts analyze --depth 2 --verbose "Eu tenho preferência por Pássaros"
   ```
+
+## Exemplos com NPX
+
+  ```bash
+  npx ts-node cli.ts analyze --depth 2 --verbose "gato cachorro rosa tulipa aguia"
+  ```
+  
+  ```bash
+  npx ts-node cli.ts analyze --depth 2 --verbose "Eu tenho preferência por Pássaros"
+  ```
