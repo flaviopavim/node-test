@@ -75,25 +75,6 @@ function getWordsAtDepth(tree: WordTree, depth: number, currentDepth = 0): strin
   return words;
 }
 
-// Função para contar palavras da frase que estão no nível de profundidade especificado
-function analyzePhrases(tree: WordTree, phrase: string, depth: number): { [key: string]: number } {
-  const wordsAtDepth = getWordsAtDepth(tree, depth);
-  const wordCounts: { [key: string]: number } = {};
-  
-  wordsAtDepth.forEach(word => {
-    wordCounts[word] = 0;
-  });
-
-  const phraseWords = phrase.toLowerCase().split(/\s+/);
-  phraseWords.forEach(word => {
-    if (word in wordCounts) {
-      wordCounts[word]++;
-    }
-  });
-
-  return wordCounts;
-}
-
 function analyzePhrase(tree: WordTree, phrase: string, depth: number): { [key: string]: number } {
     const wordsAtDepth = getWordsAtDepth(tree, depth);
     const wordCounts: { [key: string]: number } = {};
