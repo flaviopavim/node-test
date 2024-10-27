@@ -40,13 +40,19 @@ Para executar o CLI, use o comando abaixo, substituindo <n> pelo nível desejado
 
 ## Exemplo:
 
+  ```bash
   bun run cli.ts analyze --depth 2 --verbose "Eu tenho preferência por Pássaros"
+  ```
 
 ## Opções
 
+  ```bash
     --depth <n>: Define o nível de profundidade na árvore a ser analisado.
     --verbose (opcional): Exibe informações detalhadas sobre o tempo de execução.
+  ```
 
 ## Exemplo Completo
 
+  ```bash
   bun run cli.ts analyze --depth 2 --verbose "Eu gosto de Felinos como Leões e Tigres"
+  ```
