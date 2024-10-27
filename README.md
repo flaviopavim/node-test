@@ -17,9 +17,9 @@ Este projeto é uma ferramenta de linha de comando (CLI) desenvolvida em TypeScr
 ## Pré-requisitos
 
 - [Bun](https://bun.sh/) - Runtime JavaScript/TypeScript. Para instalar o Bun, execute o seguinte comando:
+
   ```bash
   curl -fsSL https://bun.sh/install | bash
-
 
 ## Como Executar
 
