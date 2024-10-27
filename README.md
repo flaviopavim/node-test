@@ -21,9 +21,9 @@ Este projeto é uma ferramenta de linha de comando (CLI) desenvolvida em TypeScr
   ```bash
   curl -fsSL https://bun.sh/install | bash
 
-## Como Executar
+## Como executar
 
-1. Clonar o Repositório
+1. Clonar o repositório
 
   ```bash  
   git clone [<URL-do-repositorio>](https://github.com/flaviopavim/node-test.git)
