@@ -1,8 +1,8 @@
-# Analisador de Frases com Árvore de Palavras
+# Analisador de frases com árvore de palavras
 
 Este projeto é uma ferramenta de linha de comando (CLI) desenvolvida em TypeScript que permite analisar frases com base em uma árvore de palavras predefinida. A árvore de palavras é estruturada em níveis de profundidade, e o CLI permite contar a ocorrência de palavras em um nível específico da árvore em uma frase fornecida.
 
-## Estrutura do Projeto
+## Estrutura do projeto
 
 - **`cli.ts`**: Arquivo principal do CLI contendo a lógica de análise.
 - **Árvore de palavras**: Estrutura de dados em formato de árvore com categorias e subcategorias, como "Animais", "Mamíferos", "Aves", etc., organizada para facilitar a análise de palavras por nível de profundidade.
@@ -24,9 +24,10 @@ Este projeto é uma ferramenta de linha de comando (CLI) desenvolvida em TypeScr
 ## Como Executar
 
 1. Clonar o Repositório
-  
-git clone [<URL-do-repositorio>](https://github.com/flaviopavim/node-test.git)
-cd node-test
+
+  ```bash  
+  git clone [<URL-do-repositorio>](https://github.com/flaviopavim/node-test.git)
+  cd node-test
 
 2. Rodar o CLI com Bun
 
