@@ -45,7 +45,7 @@ Para executar o CLI, use o comando abaixo, substituindo <n> pelo nível desejado
     --verbose (opcional): Exibe informações detalhadas sobre o tempo de execução.
   ```
 
-## ExemploS
+## Exemplos
 
   ```bash
   bun run cli.ts analyze --depth 2 --verbose "Eu gosto de Felinos como Leões e Tigres"
